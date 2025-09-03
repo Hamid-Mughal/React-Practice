@@ -1,11 +1,10 @@
 import React from 'react'
 import '../ComponentsCSS/Navbar.css';
+
 export default function Navbar() {
   return (
-
-    <>
-      <header>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <header>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div className="container">
           <a className="navbar-brand" href="#">My App</a>
           <button
@@ -19,20 +18,21 @@ export default function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav custom-nav">
+            <ul className="navbar-nav ms-auto custom-nav">
               <li className="nav-item">
-                <button className=" btn-link active" type="button">
+                <button className="btn btn-link nav-link active" type="button">
                   Home
                 </button>
               </li>
               <li className="nav-item">
-                <button className=" btn-link" type="button">
+                <button className="btn btn-link nav-link" type="button">
                   About
                 </button>
               </li>
               <li className="nav-item">
-                <button className=" btn-link" type="button">
+                <button className="btn btn-link nav-link" type="button">
                   Contact
                 </button>
               </li>
@@ -40,10 +40,6 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      </header>
-
-     
-      
-    </>
-  )
+    </header>
+  );
 }

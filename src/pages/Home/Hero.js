@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="container">
         <div className="row">
           <div className="col">
-            Hero
+            This is Our Hero Section
             <p>{myName("Hamid Raza ", 23)}</p>
           </div>
         </div>
