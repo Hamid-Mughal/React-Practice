@@ -1,0 +1,16 @@
+.custom-nav .nav-item {
+  color: red;
+}
+ul li button{
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+   
+}
+ul li .btn-link{
+    text-decoration: none;
+}
+ul li .btn-link:hover{
+    transform:scale(1.1);
+    color: black;
+}
