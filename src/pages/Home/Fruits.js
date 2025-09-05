@@ -1,4 +1,5 @@
 import React from "react";
+import "../PagesCSS/fruits.css"
 
 export default function Fruits() {
   const fruits = ["Apple", "Banana", "Mango", "Orange", "Strawberry"];
